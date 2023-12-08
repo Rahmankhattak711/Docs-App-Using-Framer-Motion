@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: "Hedvig Letters Sans", sans-serif; */
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+::selection{
+    color: rgb(143, 143, 56);
+}
